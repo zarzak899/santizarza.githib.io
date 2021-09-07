@@ -1,0 +1,37 @@
+.pf{
+    position: relative;
+    display: block;
+}
+
+.pr h1{
+    display: inline-block;
+    height: auto;
+}
+.enunciado {
+    position: relative;
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    max-width: 50%;
+    height: auto;
+
+}
+
+.resultados{
+    position: absolute;
+    left: 60%;
+    top: 15%;
+    float: right;
+    font-family: sans-serif;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    max-width: 50%;
+    height: auto;
+}
+
+.resultados h4{
+    display: block;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PF</title>
+    <link rel="stylesheet" href="estiloPF.css">
+    
+</head>
+<body>
+<div class="pf">
+    <h1>Calculadora de Intereses (compuesto)</h1>
+<div class="enunciado">
+    <form action="">
+        <h4>Monto a invertir</h4>
+        <input type="number" id="monto">
+
+        <h4>Periodo a invertir</h4>
+        <input type="number" name="" id="n">
+
+        <h4>Tasa mensual</h4>
+        <input type="number" id="tasa">
+        <br>
+        <br>
+
+        <input type="button" value="Calcular" onclick="CALCULAR()">
+    </form>
+</div>
+<div class="resultados">
+    <h2>Resultados</h2>
+    <h4>Monto</h4>
+    <p id="montoP"></p>
+
+    <h4>Tasa</h4>
+    <p id="tasaP"></p>
+
+    <h4>Periodos</h4>
+    <p id="nP"></p>
+
+    <h4>Total Intereses</h4>
+    <p id="interesesP"></p>
+
+    <h4>TOTAL</h4>
+    <p id="totalP"></p>
+</div>
+</div>
+<script src="appPF.js"></script>
+</body>
+</html>
