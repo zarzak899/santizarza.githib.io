@@ -1,0 +1,435 @@
+head{
+    margin: 0;
+    display: block;
+    padding: 0;
+    top: 0;
+    
+}
+
+body{
+    margin: 0;
+    display: block;
+    padding: 0;
+    top: 110px;
+    background-color: black;
+    color: white;
+
+    
+}
+.encabezado{
+    position: sticky;
+    padding: 0%;
+    margin: 0%;
+    border: 0;
+    display: block;
+    height: 110px;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    background-color: rgb(245, 232, 208);
+
+}
+
+.mensaje-inicio{
+    width: 100%;
+    height: 2em;
+    background-color: lightgray;
+    position: absolute;
+    top: 0%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.mensaje-inicio p {
+    font-size: 1em;
+    font-family: sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.navegador {
+    position: absolute;
+    top: 2em;
+    background-color: #fff;
+    color: teal;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px teal;
+}
+
+#yasi-logo{
+    height: 80%;
+    width: auto;
+    display: block;
+    float: left;
+    position: absolute;
+    left: 7%;
+    top: 4px;
+    
+}
+.navegador ul{
+    list-style-type: none;
+    padding: 8px;
+    position: absolute;
+    top: 5px;
+    left: 40%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 0;
+    
+ 
+}
+
+.navegador li {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    float: left;
+}
+
+.navegador a {
+    text-decoration: none;
+    color: teal;
+}
+
+.navegador a:hover{
+    background-color: black;
+    color: brown;
+}
+
+#inicio{
+        display: block;
+        padding: 15px;
+        float: left;
+}
+
+#mates-a{
+    display: block;
+    padding: 15px;
+    float: left;
+}
+
+a #carrito{
+    display: block;
+    float: right;
+    width: auto;
+    height: 50%;
+    position: absolute;
+    right: 8%;
+    top: 10px;
+    
+   
+}
+
+.seccion1 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+
+}
+.fotos1{
+    position: absolute;
+    height: 400px;
+    width: 30%;
+    display: block;
+    
+}
+
+.fotos1 img {
+    width: 100%;
+    height: 100% ;
+    max-height: 400px;
+    display: block;
+    margin: 0;
+    position: absolute;
+    float: left;
+    filter: brightness(90%);
+    background-color: black;
+    object-fit: cover;
+}
+
+
+.fotos1 img:hover{
+    filter: brightness(100%);
+}
+
+.promo{
+   display: flex;
+   
+   min-width: 40%;
+   height: 400px;
+   margin: 0;
+   position: absolute;
+   left: 30%;
+   align-items: center;
+   justify-content: center;
+   object-fit: cover;
+
+
+}
+
+
+.promo h2{
+    color: lightgray;   
+    font-size: 3em;
+    font-family: sans-serif;
+    margin: 0;
+    position: absolute;
+    width: auto;
+    height: auto;
+    max-width: fit-content;
+    object-fit: contain;
+
+}
+
+.promo p{
+    color: lightgray;
+    font-size: 1em;
+    font-family: sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 58%;
+    width: auto;
+    height: auto;
+    max-height: fit-content;
+    max-width: fit-content;
+    object-fit: contain;
+
+}
+
+.foto2 {
+    position: relative;
+    height: 400px;
+    width: 30%;
+    display: block;
+    float: right;
+}
+
+.foto2 img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    display: block;
+    margin: 0;
+    filter: brightness(90%);
+    background-color: black;
+    object-fit: cover ;
+}
+
+.foto2 img:hover{
+    filter: brightness(100%);
+}
+
+.categorias{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.categorias ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    position: absolute;
+
+}
+
+.categorias li{
+    padding-right: 15%;
+    padding-left: 15%;
+    color: black;
+    align-items: center;
+    display: block;
+    color: rgb(234, 255, 255);
+
+}
+
+.categorias a {
+    text-decoration: none;
+    display: block;
+    color: teal;
+    font-family: sans-serif;
+}
+
+.categorias a:hover{
+    background-color: thistle;
+}
+
+.categoriamates {
+    width: 100%;
+    height: 300px;
+    display: block;
+    position: relative;
+
+
+}
+.categoriamates img{
+    filter: brightness(90%);
+}
+
+.categoriamates img:hover{
+filter: brightness(100%);
+}
+.matealpaca{
+    position: absolute;
+    width: 33.33%;
+    max-width: 33.33%;
+    height: 100%;
+    max-height: 350px;
+    display: block;
+}
+.matealpaca img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-height: 350px;
+    max-width: 100%;
+    object-fit: cover;
+
+}
+
+.tresmates {
+    position: absolute;
+    width: 33.33%;
+    left: 33.33%;
+    max-width: 33.33%;
+    height: 100%;
+    max-height: 350px;
+    display: block;
+}
+
+.tresmates img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-height: 350px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.camionero{
+    position: absolute;
+    width: 33.33%;
+    left: 66.66%;
+    max-width: 33.33%;
+    height: 100%;
+    max-height: 350px;
+    display: block;
+}
+
+.camionero img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-height: 350px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.datos{ 
+    width: 100%;
+    max-width: 100%;
+    height: 80px;
+    max-height: 80px;
+    background-color: #fff;
+    display: flex;
+    color: teal;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding: 0
+
+}
+.info{
+    width: 50%;
+    max-width: 50%;
+    height: 80px;
+    max-height: 80px;
+    background-color: #fff;
+    display: block;
+    color: teal;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding: 0
+
+}
+
+.info h3{
+    text-align: center;
+    position: relative;
+    top: 10%;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.info p{
+    position:relative;
+    text-align: center;
+    font-size: 1em;
+    vertical-align: middle;
+    margin-top: 3%;
+}
+
+.infoenvios{
+    width: 50%;
+    max-width: 50%;
+    height: 80px;
+    max-height: 80px;
+    background-color: #fff;
+    display: block;
+    color: teal;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-right: 1px;
+    padding: 0;
+    border-right: teal 2px solid;
+
+}
+
+.infoenvios h3{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    position: relative;
+    text-align: center;
+    top: 10%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 0.5em;
+    position: relative;
+    text-align: center;
+}
